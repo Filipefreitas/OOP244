@@ -1,0 +1,8 @@
+Name: Filipe da Cunha de Freitas
+email: fda-cunha-de-freitas@myseneca.ca
+ID: 155737190
+Date: 2020-10-27
+
+In this workshop, I learnt how to use operators and helper functions. Although operators are quite logic, having to understand them was not intuitive, since I was not used to think about them taking into the account the iterations between left and right operands. I know it is how it works, but it was not my natural way of thinking.
+I had some difficulties in the lab part. I did now know how to check if a left value was correct, this means adding a correct value into an invalid box. I don’t think I came up with a neat solution in the lab part, but I think I fixed it in the DIY part, by adding a flag valid, that accepts 0 and 1 and use the boolean operator to check it, so no operation are carried out in marks set as invalid. If both members are valid, but the sum of them returns an invalid number (this means a mark over 100), the correct content function sets is to zero and flag as invalid.
+I also learn how to use cast operators to convert data. This was at first easy to implement and understand; however, I had one issue trying to add a function to cast to char. I tried several ways to do so by manipulating strings but ended up with a solution that uses ASCI table to print the characters.

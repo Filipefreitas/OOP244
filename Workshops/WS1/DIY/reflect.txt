@@ -1,0 +1,7 @@
+Name: Filipe da Cunha de Freitas
+email: fda-cunha-de-freitas@myseneca.ca
+ID: 155737190
+Date: 2020-10-28
+
+This very first workshop was helpful to reinforce modularity concepts explored in IPC144. But more important than that, it was to learn the idea around a namespace, hot it works, how it should be defined, and that the using statement should never be added in a header file. Talking about the header file, I also assimilate how to use compilation safeguards to guard against multiple inclusion of headers files. In addition, I learn to not put the main function in a namespace – this was the mistake I made while trying to complete the workshop in the beginning of the term. 
+Talking about the code specifically, I learnt how to use cin to receive an input from the user, and cout to display it; also, how to use strcmp to look up an input in a global array of structs – although this was done in IPC, at the beginning of the semester, I did not remember how to do it.  Last, I learnt how to create functions to read the parameters from the input file, in order to ensure the records are correct, this was done by using several reading functions, all included in the file header file.

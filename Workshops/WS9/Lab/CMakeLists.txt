@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13)
+project(Run)
+set(CMAKE_CXX_STANDARD 11)
+set(GCC_COVERAGE_COMPILE_FLAGS "-Wall -g")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}" )
+add_executable(Run main.cpp Car.cpp Car.h Collection.h Employee.h Employee.cpp ReadWrite.cpp ReadWrite.h search.h Student.cpp Student.h)

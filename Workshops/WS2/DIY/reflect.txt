@@ -1,0 +1,8 @@
+Name: Filipe da Cunha de Freitas
+email: fda-cunha-de-freitas@myseneca.ca
+ID: 155737190
+Date: 2020-10-30
+
+In this workshop, I learnt how to use dynamically allocation memory for an array. This was done in the lab part with the name of the student by using the new statement, combined with strlen +1. The same command was used to allocate memory for the global array. The deallocateMemory function was used to deallocate the no longer required memory.
+I also learnt how to use overload functions – functions with same name, but different parameters. In the lab part, three reading functions were used, one to read student`s name, one to read student`s number, and one to read student`s GPA. All functions were called read, but received the proper parameters to read data accordingly.
+Last, I learnt how to use references to pass the variable or object, this was done by used the character & and it was applied in all read, load and display functions. It is worthy outlining that passing by reference has a simpler syntax, when compared to pass by address.
